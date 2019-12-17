@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Fri Nov 15 20:54:48 2019 as: nmap -oX - -sP raspberrypi.local/24 -->
+<nmaprun scanner="nmap" args="nmap -oX - -sP raspberrypi.local/24" start="1573851288" startstr="Fri Nov 15 20:54:48 2019" version="7.70" xmloutputversion="1.04">
+    <verbose level="0"/>
+    <debugging level="0"/>
+    <host>
+        <status state="up" reason="arp-response" reason_ttl="0"/>
+        <address addr="000.000.0.000" addrtype="ipv4"/>
+        <address addr="00:00:00:00:00:00" addrtype="mac" vendor="Random Technology"/>
+        <hostnames>
+        </hostnames>
+        <times srtt="4639" rttvar="5000" to="100000"/>
+    </host>
+    <runstats>
+        <finished time="1573851292" timestr="Fri Nov 15 20:54:52 2019" elapsed="4.35" summary="Nmap done at Fri Nov 15 20:54:52 2019; 256 IP addresses (1 hosts up) scanned in 4.35 seconds" exit="success"/>
+        <hosts up="1" down="244" total="256"/>
+    </runstats>
+</nmaprun>
